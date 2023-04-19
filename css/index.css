@@ -44,14 +44,35 @@ body {
     }
     .banner{
         display: block;
+        margin-top: -50px;
+    }
+    #name1{
+        margin-top: 10px;
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+    #what1{
+        
+        margin-top: -10px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px){
+    .navlists{
+        margin-top: 10px;
+    }
+    .banner{
+        display: block;
+        margin-top: -50px;
     }
     #name{
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 900;
     }
     #what{
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 700;
     }
 }
 .aboutbanner{
@@ -83,6 +104,30 @@ body {
 @media only screen and (max-width: 600px){
     .aboutbanner{
         display: block;
+        margin-top: -10px;
+    }
+    .aboutbanner1{
+        margin-top: -25px;
+    }
+    #name{
+        font-size: 2rem;
+    }
+    #what{
+        font-size: 1.5rem;
+    }
+    #brief{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px){
+    .aboutbanner{
+        margin-top: -20px;
+    }
+    #brief{
+        font-size: 1rem;
+    }
+    #name{
+        font-size: 2rem;
     }
 }
 .contactbanner{
@@ -106,5 +151,16 @@ body {
     }
     .contactdetails{
         font-size: medium;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1100px){
+    .contactdetails{
+        font-size: 1.5rem;
+    }
+    .cimg{
+        margin-top: 50px;
+    }
+    .contactbanner{
+        margin-top: -20px;
     }
 }
